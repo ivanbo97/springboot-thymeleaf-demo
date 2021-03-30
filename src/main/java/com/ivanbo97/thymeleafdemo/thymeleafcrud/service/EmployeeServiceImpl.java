@@ -20,7 +20,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	
 	@Override
 	public List<Employee> findAll() {
-		return employeeRepository.findAll();
+		return employeeRepository.findAllByOrderByLastNameAsc();
 	}
 
 	@Override
@@ -31,8 +31,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 	@Override
 	public void save(Employee employee) {
-		// TODO Auto-generated method stub
-
+		employeeRepository.save(employee);
 	}
 
 	@Override
