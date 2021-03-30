@@ -14,7 +14,8 @@ public final class ApplicationConstants {
     public static final String EMPLOYEES_BASE_URL = API_V1 + "/employees";
     public static final String EMPLOYEES_FORM_URL = EMPLOYEES_BASE_URL+ "/showFormForAdd";
     public static final String EMPLOYEES_FORM_SAVE_URL = EMPLOYEES_BASE_URL + "/save";
-    
+    public static final String EMPLOYEES_FORM_UPDATE_URL = EMPLOYEES_BASE_URL + "/showFormForUpdate";
+    public static final String EMPLOYEES_FORM_DELETE_URL = EMPLOYEES_BASE_URL + "/delete";
     
     
 }
