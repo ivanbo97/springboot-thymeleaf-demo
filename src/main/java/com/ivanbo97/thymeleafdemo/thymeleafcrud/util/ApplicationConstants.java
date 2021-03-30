@@ -12,6 +12,9 @@ public final class ApplicationConstants {
     //End Point Mappings
     public static final String API_V1 = "/api/v1";
     public static final String EMPLOYEES_BASE_URL = API_V1 + "/employees";
+    public static final String EMPLOYEES_FORM_URL = EMPLOYEES_BASE_URL+ "/showFormForAdd";
+    public static final String EMPLOYEES_FORM_SAVE_URL = EMPLOYEES_BASE_URL + "/save";
+    
     
     
 }
